@@ -7,11 +7,10 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "test": "node --test src/*.test.js",
+    "test": "node --test src/*.test.js worker.test.js",
     "preview": "vite preview"
   },
   "dependencies": {
-    "@mlc-ai/web-llm": "^0.2.86",
     "react": "^19.3.1",
     "react-dom": "^19.3.1"
   },
